@@ -1,0 +1,34 @@
+export const SET_SKIN="SET_SKIN"
+export const UPDATE_SKIN="UPDATE_SKIN"
+
+export const ADD_CONTACT="ADD_CONTACT"
+export const UPDATE_CONTACT="UPDATE_CONTACT"
+
+export const ADD_EDUCATION="ADD_EDUCATION"
+export const UPDATE_EDUCATION="UPDATE_EDUCATION"
+
+export const SIGN_UP_REQ="SIGN_UP_REQ";
+export const SIGN_UP_SUCC="SIGN_UP_SUCC";
+export const SIGN_UP_FAIL="SIGN_UP_FAIL";
+
+export const SIGN_IN_REQ="SIGN_IN_REQ";
+export const SIGN_IN_SUCC="SIGN_IN_SUCC";
+export const SIGN_IN_FAIL="SIGN_IN_FAIL";
+
+export const SIGN_OUT_REQ="SIGN_OUT_REQ";
+export const SIGN_OUT_SUCC="SIGN_OUT_SUCC";
+export const SIGN_OUT_FAIL="SIGN_OUT_FAIL";
+
+export const REMOVE_ERROR="REMOVE_ERROR";
+
+
+export const ADD_SKILLS="ADD_SKILLS";
+export const UPDATE_SKILLS="UPDATE_SKILLS"
+
+
+export const ADD_EXPERIENCE="ADD_EXPERIENCE";
+export const UPDATE_EXPERIENCE="UPDATE_EXPERIENCE"
+
+
+
+
