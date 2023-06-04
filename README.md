@@ -31,7 +31,7 @@ This project consists of following stages:
 ![form](https://github.com/Shalinisinha22/Resume-builder/assets/122859073/187ee70e-d674-4220-bcd6-00b2b483d36d)
 
 
-<h3>Fourth Stage: Download your resume and also save to database so that in future you can update your resume.</h3>
+<h3>Fourth Stage: Download your resume</h3>
 
 ![save](https://github.com/Shalinisinha22/Resume-builder/assets/122859073/b73e3ee6-289b-4350-8d76-86795b6e9ede)
 
