@@ -1,7 +1,6 @@
 # Resume-builder
 
-This project will help you through the process that can be followed to build your resume, using ReactJS and Redux. 
-It will develop a web application that will auto-generate a nice and properly formatted Resume from the information filled up in a form.
+ A web application that will auto-generate a nice and properly formatted Resume from the information filled up in a form, using React.Js and Redux.
 <h2>🚀 Technical Stack:</h2>
 
 <ul>
