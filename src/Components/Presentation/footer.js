@@ -76,11 +76,11 @@ const footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
 
           <p>
-            <a href="https://mail.google.com/mail/">
+           
             <i class="fas fa-envelope me-3">
             </i>
                &nbsp;  shalinisinha.cspatna@gmail.com
-            </a>
+           
           
             
           </p>
