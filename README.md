@@ -1,5 +1,5 @@
 # Resume-builder
-
+Hosted : https://resume-builder-project-d25f8.web.app/
  A web application that will auto-generate a nice and properly formatted Resume from the information filled up in a form, using React.Js and Redux.
 <h2>🚀 Technical Stack:</h2>
 
