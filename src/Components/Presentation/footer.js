@@ -78,9 +78,15 @@ const footer = () => {
           <p>
           
             <i class="fas fa-envelope me-3">
+<<<<<<< HEAD
             </i><a style={{textDecoration:"none"}} href="mailto:shalinisinha.cspatna@gmail.com"> &nbsp;  shalinisinha.cspatna@gmail.com</a>
               
           
+=======
+            </i>
+               &nbsp;  shalinisinha.cspatna@gmail.com
+      
+>>>>>>> 0dbdaa208207caf385a355ef843d8c756b31db58
           
             
           </p>
