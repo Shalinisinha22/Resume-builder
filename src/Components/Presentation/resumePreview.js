@@ -55,32 +55,35 @@ function ResumePreview(props) {
             rvContact(fieldCd.Country, ", ") +
             rvContact(fieldCd.ZipCode, ", ")}
         </p>
-        <p className={"center"}>{rvContact(fieldCd.Email)}</p>
+        <p className={"center email"}>{rvContact(fieldCd.Email)}</p>
         <p className={"center"}>{rvContact(fieldCd.Phone)} </p>
       </div>
 
       <div className={"profSummSection text-upper"}>
         <p className="heading bold">PROFESSIONAL SUMMARY</p>
         <div className={"divider"}></div>
-        <p>{rvContact(fieldCd.ProfSummary)}</p>
+        <p className="summary">{rvContact(fieldCd.ProfSummary)}</p>
       </div>
 
       <div className={"educationSection text-upper"}>
         <p className="heading bold">EDUCATIONAL DETAILS</p>
         <div className={"divider"}></div>
+        <div className="education-details">
         <p>{rvEducation(fieldCd.SchoolName)}</p>
         <p>{rvEducation(fieldCd.Degree)}</p>
         <p>{rvEducation(fieldCd.City)}</p>
         <p>{rvEducation(fieldCd.GraduationCGPA)}</p>
         <p>{rvEducation(fieldCd.GraduationDate)}</p>
         <p>{rvEducation(fieldCd.GraduationYear)}</p>
+        </div>
+        
       </div>
 
       <div className={"educationSection text-upper"}>
         <p className="heading bold">Skills</p>
         <div className={"divider"}></div>
-
-        <p>{rvSkill(fieldCd.Skill1)}</p>
+         <div className="skill-list">
+         <p>{rvSkill(fieldCd.Skill1)}</p>
         <p>{rvSkill(fieldCd.Skill2)}</p>
         <p>{rvSkill(fieldCd.Skill3)}</p>
         <p>{rvSkill(fieldCd.Skill4)}</p>
@@ -88,6 +91,8 @@ function ResumePreview(props) {
         <p>{rvSkill(fieldCd.Skill6)}</p>
         <p>{rvSkill(fieldCd.Skill7)}</p>
         <p>{rvSkill(fieldCd.Skill8)}</p>
+         </div>
+       
       </div>
 
       <div className={"educationSection text-upper"}>

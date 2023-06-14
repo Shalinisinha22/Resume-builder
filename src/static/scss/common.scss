@@ -24,6 +24,7 @@
 
 body {
     font-family: Josefin Sans;
+    
 }
 
 a {
@@ -180,8 +181,10 @@ ul {
     font-size: 2.1rem !important;
     padding: .7rem 1.5rem !important;
     border: none;
-    background-color: white;
+    // background-color: white;
     cursor: pointer;
+    
+  
 }
 
 
@@ -224,7 +227,8 @@ ul {
 
 .nav .signin {
     padding-left: 0;
-    padding-right: 0
+    padding-right: 0;
+    
 }
 
 .nav .signup {
@@ -235,10 +239,14 @@ ul {
 
 .nav .signup:hover {
     background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+   
+    
 }
 
 .nav .signup a:hover {
-    color: white !important;
+    color: #f7f7f7 !important;
+  
+ 
 }
 
 .nav .signin a:hover {
@@ -601,7 +609,8 @@ h1 span {
         width: 30%;
         box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
         padding: 2%;
-        min-height: 100vh;
+        height: 70vh;
+        margin-top: 8rem;
     }
 
     .resume-options {

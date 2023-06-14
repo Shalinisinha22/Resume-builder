@@ -53,10 +53,10 @@ const navigate=useNavigate()
           <div className="header-links full-height">
   
           { isLoaded(props.auth) && !isEmpty(props.auth) ?<>
-  
-            <ul >
+             <div className="logout-cont">
+             <ul >
               <li className="signin ">
-                <NavLink className="  " to="/">
+                <NavLink className="email" to="/">
                    {props.auth.email}
                 </NavLink>
               </li>
@@ -66,9 +66,11 @@ const navigate=useNavigate()
                 </button>         
               </li>
             </ul>
+             </div>
+            
   
           </>:<LoggesOut></LoggesOut>}
-            
+            <div className="default">
             <ul id="nav-mid">
               <li>
               <NavLink className="btn-nvt-gm" to="/resume-templates">
@@ -81,6 +83,8 @@ const navigate=useNavigate()
                 </NavLink>
               </li>        
             </ul>
+            </div>
+           
               
         </div>   
       </nav>

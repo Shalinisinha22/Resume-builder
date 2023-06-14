@@ -12,9 +12,41 @@
     
 }
 
-@media only screen and (max-width:450px){
-    .section{
-       margin-top: 20rem; 
-       font-size: 2rem;
+
+@media only screen and (max-width:1024px){
+    .lp-page{
+        margin-top: 8rem;    
     }
+   
+}
+
+@media only screen and (max-width:700px){
+   
+    .lp-page{
+        margin-top: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+        
+    }
+  
+
+    .lp-page p{
+        text-align: center;
+        padding:2rem 3rem;
+
+    }
+}
+
+@media only screen and (max-width:300px){
+  
+    .lp-page p{
+        font-size: 0.95rem;
+    }
+    .lp-page h1{
+       font-size: 1rem;
+    }
+  
 }

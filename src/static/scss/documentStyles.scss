@@ -1,28 +1,140 @@
-.skin1{
-
-    padding:3%;
-    .contact-name{
-        color: cornflowerblue;
-       
-        font-size: 3rem;
-        font-weight: bold;
-        padding: 5px 0px;
+.skin1 {
+  padding: 3%;
+  .contact-name {
+    color: cornflowerblue;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 5px 0px;
+  }
+  .address {
+    padding: 5px 0px;
+  }
+  .summary {
+    text-align: justify;
+  }
+  .educationSection {
+    .heading {
+      color: darkcyan;
+      font-size: 1.7rem;
+      width: 100%;
     }
-    .address{
-        padding: 5px 0px;
-    }
-    .educationSection{
-
-        .heading{
-            color: darkcyan;
-            font-size: 1.7rem;
-            width: 100%;
-            
-        }
-    }
+  }
 }
 
-.divider{
-    width: 100%;
-    border-bottom: 1px solid darkcyan;
+.skin2 {
+  .contact-name {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .summary {
+    text-align: justify;
+  }
+}
+
+.skin3 {
+  .contact-name {
+    color: black;
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .summary {
+    text-align: justify;
+  }
+}
+
+.skin4 {
+  .contact-name {
+    color: black;
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .summary {
+    text-align: justify;
+    padding: 1rem 1rem;
+  }
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 1px solid darkcyan;
+}
+
+@media screen and (max-width: 600px) {
+  .skin1 {
+    .contact-name {
+      color: cornflowerblue;
+      font-size: 2rem;
+    }
+    .address {
+      padding: 5px 0px;
+
+      .email {
+        font-size: 1rem !important;
+      }
+    }
+
+    .educationSection {
+      margin-top: 2rem;
+    }
+  }
+
+  .skin1 p {
+    font-size: 0.85rem;
+    height: auto;
+  }
+
+  .skin2 {
+    .summary {
+      font-size: 1rem;
+      text-align: justify;
+    }
+    .email {
+      font-size: 1rem;
+    }
+  }
+
+  .skin3 {
+    .address {
+      .email {
+        font-size: 1rem !important;
+      }
+    }
+
+    .summary {
+      font-size: 1rem;
+      text-align: justify;
+      padding: 1rem 0.5rem;
+    }
+  }
+
+  .skin4 {
+    .address {
+      .email {
+        font-size: 1rem !important;
+      }
+    }
+
+    .summary {
+      font-size: 1rem;
+      text-align: justify;
+      padding: 1rem 0.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .skin1 {
+    .contact-name {
+      font-size: 1.5rem;
+    }
+   
+  }
+
+
 }

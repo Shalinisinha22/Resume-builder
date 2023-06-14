@@ -40,9 +40,9 @@ const footer = () => {
       <div class="row mt-3">
     
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-    
+        <img src={logo} style={{height:"13rem",width:"15rem",borderRadius:"5rem"}}></img>
           <h6 class="text-uppercase fw-bold mb-4">
-           <img src={logo} style={{height:"15rem",width:"15rem",borderRadius:"5rem"}}></img>Resume builder
+           Resume builder
           </h6>
           <p>
            
@@ -56,16 +56,16 @@ const footer = () => {
           </h6>
         
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#" class="text-reset">React</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Redux</a>
+            <a href="#" class="text-reset">Redux</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Firebase</a>
+            <a href="#" class="text-reset">Firebase</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Javascript</a>
+            <a href="#" class="text-reset">Javascript</a>
           </p>
         </div>
        
@@ -76,16 +76,15 @@ const footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
 
           <p>
-           
+          
             <i class="fas fa-envelope me-3">
-            </i>
-               &nbsp;  shalinisinha.cspatna@gmail.com
-           
+            </i><a style={{textDecoration:"none"}} href="mailto:shalinisinha.cspatna@gmail.com"> &nbsp;  shalinisinha.cspatna@gmail.com</a>
+              
+          
           
             
           </p>
-          {/* <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> */}
+        
         </div>
        
       </div>
@@ -94,7 +93,7 @@ const footer = () => {
   </section>
  
   <div class="text-center p-4" style={{backgroundColor:" rgba(0, 0, 0, 0.05)"}}>
-    © 2021 Copyright:
+    © 2023 Copyright. All Rights Reserved.
 
   </div>
 

@@ -1,16 +1,25 @@
 .gettingStarted {
 
- 
-
-
     .selected-skin{
       border: 2px solid teal;
     }
   
-  
-  
-  
-  
-  
-  
+
+  }
+
+
+  @media  screen and (max-width:700px) {
+    .gettingStarted .section{
+       margin-top: 28rem;
+     
+
+    }
+
+    .gettingStarted .section h1{
+      font-size: 2rem;
+      padding:0 1rem;
+    }
+    .gettingStarted .section p{
+      font-size: 0.95rem;
+    }
   }

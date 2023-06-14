@@ -117,3 +117,101 @@ input {
 .form-buttons .btn {
     margin: 20px 0px;
 }
+
+
+
+@media screen  and (max-width:1024px) {
+
+    .funnel-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .funnel-section .form-card{
+       
+        width:80%;
+      
+         
+      
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .funnel-section{
+        display: flex;
+        flex-direction: column;
+        gap:5rem;
+    }
+
+    .preview-card{
+        width:80%;
+        height:auto;
+    }
+    .finalize-page .funnel-section{
+      
+
+
+        .finalize-settings{
+            width:70%;
+           
+            height:70%;
+
+        }
+    }
+
+}
+
+
+@media screen  and (max-width:700px) {
+    .funnel-section .form-card{
+        margin-top: 20rem;
+        width:100%;  
+    }
+
+    
+    .funnel-section{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+
+    .form-card .form-section{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .form-card .form-section .input-group{
+        width:100%;
+        padding: 0 2rem;
+    }
+
+    .form-card .form-buttons{
+        padding:0 4rem;
+        width:100%;
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    .preview-card{
+       
+        width:100%;
+        height:auto;
+    }
+
+    .finalize-page .funnel-section{
+        margin-top: 18rem;
+
+
+        .finalize-settings{
+            width:100%;
+            
+            
+           
+        }
+    }
+
+   
+   
+}
